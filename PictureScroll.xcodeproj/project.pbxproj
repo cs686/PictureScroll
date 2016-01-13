@@ -13,6 +13,7 @@
 		A6957CD51C46903100B9AC98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6957CD31C46903100B9AC98 /* Main.storyboard */; };
 		A6957CD71C46903100B9AC98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6957CD61C46903100B9AC98 /* Assets.xcassets */; };
 		A6957CDA1C46903100B9AC98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6957CD81C46903100B9AC98 /* LaunchScreen.storyboard */; };
+		A6957CE51C46927A00B9AC98 /* CSSPictureScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6957CE41C46927A00B9AC98 /* CSSPictureScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		A6957CD61C46903100B9AC98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6957CD91C46903100B9AC98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6957CDB1C46903100B9AC98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6957CE31C46927A00B9AC98 /* CSSPictureScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSSPictureScrollView.h; sourceTree = "<group>"; };
+		A6957CE41C46927A00B9AC98 /* CSSPictureScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSSPictureScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		A6957CC91C46903100B9AC98 /* PictureScroll */ = {
 			isa = PBXGroup;
 			children = (
+				A6957CE21C46923A00B9AC98 /* PictureScroll */,
 				A6957CCD1C46903100B9AC98 /* AppDelegate.h */,
 				A6957CCE1C46903100B9AC98 /* AppDelegate.m */,
 				A6957CD01C46903100B9AC98 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				A6957CCB1C46903100B9AC98 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A6957CE21C46923A00B9AC98 /* PictureScroll */ = {
+			isa = PBXGroup;
+			children = (
+				A6957CE31C46927A00B9AC98 /* CSSPictureScrollView.h */,
+				A6957CE41C46927A00B9AC98 /* CSSPictureScrollView.m */,
+			);
+			path = PictureScroll;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,6 +118,7 @@
 		A6957CBF1C46903100B9AC98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CSS;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "顺苹亓";
 				TargetAttributes = {
@@ -150,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6957CE51C46927A00B9AC98 /* CSSPictureScrollView.m in Sources */,
 				A6957CD21C46903100B9AC98 /* ViewController.m in Sources */,
 				A6957CCF1C46903100B9AC98 /* AppDelegate.m in Sources */,
 				A6957CCC1C46903100B9AC98 /* main.m in Sources */,
