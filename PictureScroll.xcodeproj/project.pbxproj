@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A60B2FC31C47DC3D009FC794 /* 001.png in Resources */ = {isa = PBXBuildFile; fileRef = A60B2FC21C47DC3D009FC794 /* 001.png */; };
+		A60B2FC51C47DC57009FC794 /* 002.png in Resources */ = {isa = PBXBuildFile; fileRef = A60B2FC41C47DC57009FC794 /* 002.png */; };
+		A60B2FC71C47DC69009FC794 /* 003.png in Resources */ = {isa = PBXBuildFile; fileRef = A60B2FC61C47DC69009FC794 /* 003.png */; };
+		A60B2FC91C47DC7D009FC794 /* 004.png in Resources */ = {isa = PBXBuildFile; fileRef = A60B2FC81C47DC7D009FC794 /* 004.png */; };
+		A60B2FCB1C47DC8F009FC794 /* 005.png in Resources */ = {isa = PBXBuildFile; fileRef = A60B2FCA1C47DC8F009FC794 /* 005.png */; };
+		A60B2FCE1C47E4F1009FC794 /* CSSOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A60B2FCD1C47E4F1009FC794 /* CSSOneViewController.m */; };
 		A6957CCC1C46903100B9AC98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6957CCB1C46903100B9AC98 /* main.m */; };
 		A6957CCF1C46903100B9AC98 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6957CCE1C46903100B9AC98 /* AppDelegate.m */; };
 		A6957CD21C46903100B9AC98 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6957CD11C46903100B9AC98 /* ViewController.m */; };
@@ -17,6 +23,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A60B2FC21C47DC3D009FC794 /* 001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 001.png; sourceTree = "<group>"; };
+		A60B2FC41C47DC57009FC794 /* 002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 002.png; sourceTree = "<group>"; };
+		A60B2FC61C47DC69009FC794 /* 003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 003.png; sourceTree = "<group>"; };
+		A60B2FC81C47DC7D009FC794 /* 004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 004.png; sourceTree = "<group>"; };
+		A60B2FCA1C47DC8F009FC794 /* 005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 005.png; sourceTree = "<group>"; };
+		A60B2FCC1C47E4F1009FC794 /* CSSOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSSOneViewController.h; sourceTree = "<group>"; };
+		A60B2FCD1C47E4F1009FC794 /* CSSOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSSOneViewController.m; sourceTree = "<group>"; };
 		A6957CC71C46903100B9AC98 /* PictureScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PictureScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6957CCB1C46903100B9AC98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A6957CCD1C46903100B9AC98 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,6 +55,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A60B2FC11C47DC25009FC794 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A60B2FC21C47DC3D009FC794 /* 001.png */,
+				A60B2FC41C47DC57009FC794 /* 002.png */,
+				A60B2FC61C47DC69009FC794 /* 003.png */,
+				A60B2FC81C47DC7D009FC794 /* 004.png */,
+				A60B2FCA1C47DC8F009FC794 /* 005.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		A6957CBE1C46903100B9AC98 = {
 			isa = PBXGroup;
 			children = (
@@ -61,11 +86,14 @@
 		A6957CC91C46903100B9AC98 /* PictureScroll */ = {
 			isa = PBXGroup;
 			children = (
+				A60B2FC11C47DC25009FC794 /* images */,
 				A6957CE21C46923A00B9AC98 /* PictureScroll */,
 				A6957CCD1C46903100B9AC98 /* AppDelegate.h */,
 				A6957CCE1C46903100B9AC98 /* AppDelegate.m */,
 				A6957CD01C46903100B9AC98 /* ViewController.h */,
 				A6957CD11C46903100B9AC98 /* ViewController.m */,
+				A60B2FCC1C47E4F1009FC794 /* CSSOneViewController.h */,
+				A60B2FCD1C47E4F1009FC794 /* CSSOneViewController.m */,
 				A6957CD31C46903100B9AC98 /* Main.storyboard */,
 				A6957CD61C46903100B9AC98 /* Assets.xcassets */,
 				A6957CD81C46903100B9AC98 /* LaunchScreen.storyboard */,
@@ -153,7 +181,12 @@
 			files = (
 				A6957CDA1C46903100B9AC98 /* LaunchScreen.storyboard in Resources */,
 				A6957CD71C46903100B9AC98 /* Assets.xcassets in Resources */,
+				A60B2FCB1C47DC8F009FC794 /* 005.png in Resources */,
+				A60B2FC71C47DC69009FC794 /* 003.png in Resources */,
+				A60B2FC31C47DC3D009FC794 /* 001.png in Resources */,
+				A60B2FC91C47DC7D009FC794 /* 004.png in Resources */,
 				A6957CD51C46903100B9AC98 /* Main.storyboard in Resources */,
+				A60B2FC51C47DC57009FC794 /* 002.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A60B2FCE1C47E4F1009FC794 /* CSSOneViewController.m in Sources */,
 				A6957CE51C46927A00B9AC98 /* CSSPictureScrollView.m in Sources */,
 				A6957CD21C46903100B9AC98 /* ViewController.m in Sources */,
 				A6957CCF1C46903100B9AC98 /* AppDelegate.m in Sources */,
@@ -314,6 +348,7 @@
 				A6957CE01C46903100B9AC98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
